@@ -1,4 +1,4 @@
-FROM node:8-alpine
+FROM node:19-alpine
 
 WORKDIR /app
 RUN npm install hcl-to-json
